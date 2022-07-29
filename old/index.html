@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+   
+<head>
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        type="text/css" href="tic.css">
+    <script src="tic.js"></script>
+</head>
+   
+<body>
+    <div id="main">
+            <h1>TSI Noughts & Crosses</h1>
+
+        <br><br>
+        <!-- 3*3 grid of Boxes -->
+        <input type="text" id="box1" onclick=
+            "boxCreate_3(); boxCreate();" readonly>
+   
+        <input type="text" id="box2" onclick=
+            "boxCreate_4(); boxCreate();" readonly>
+   
+        <input type="text" id="box3" onclick=
+            "boxCreate_5(); boxCreate();" readonly>
+        <br><br>
+   
+        <input type="text" id="box4" onclick=
+            "boxCreate_6(); boxCreate();" readonly>
+               
+        <input type="text" id="box5" onclick=
+            "boxCreate_7(); boxCreate();" readonly>
+   
+        <input type="text" id="box6" onclick=
+            "boxCreate_8(); boxCreate();" readonly>
+        <br><br>
+   
+        <input type="text" id="box7" onclick=
+            "boxCreate_9(); boxCreate();" readonly>
+   
+        <input type="text" id="box8" onclick=
+            "boxCreate_10();boxCreate();" readonly>
+   
+        <input type="text" id="box9" onclick=
+            "boxCreate_11();boxCreate();" readonly>
+   
+        <!-- Grid end here  -->
+        <br><br><br>
+        <!-- Button to reset game -->
+        <button id="but" onclick="boxCreate_2()">
+            RESET
+        </button>
+   
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+ 
+  
+   
+   
+    </div>
+</body>
+   
+</html>

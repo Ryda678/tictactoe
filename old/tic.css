@@ -1,0 +1,55 @@
+<style>
+    /* CSS Code */
+    /* Heading */
+    h1 {
+        color: slateblue;
+        font-size: 45px;
+    }
+ 
+    /* 3*3 Grid */
+    #box1, #box2, #box3, #box4, #box5,
+    #box6, #box7, #box8, #box9 {
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        border: 1px solid slateblue;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+    }
+ 
+    /* Reset Button */
+    #but {
+        box-sizing: border-box;
+        width: 95px;
+        height: 40px;
+        border: 1px solid purple;
+        margin: auto;
+        border-radius: 4px;
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+        background-color: plum;
+        color: wheat;
+        font-size: 20px;
+        cursor: pointer;
+    }
+ 
+    /* Player turn space */
+    #print {
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+        color: palevioletred;
+        font-size: 20px;
+    }
+ 
+    /* Game Instruction Text */
+    #ins {
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+             
+        color: gray;
+        font-size: 17px;
+    }
+</style>
